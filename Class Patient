@@ -1,0 +1,28 @@
+package mainpackage;
+//import java.util.Scanner;
+public class Patient extends Users {
+	
+	private final int amka;
+
+	public Patient(String username,String password,String name,String surname,int amka) {
+		super(username,password,name,surname);
+		this.amka = amka;
+		
+	}
+	
+	
+	
+	//Methods from Users
+	public void login() {
+    	
+		}
+    public void logout() {
+    	
+    }
+    
+	//New Methods
+    public void register() {
+		System.out.println("User " + getName() + "you have sucsesfully registered!");
+	}
+
+}
