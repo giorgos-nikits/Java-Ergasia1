@@ -1,0 +1,86 @@
+package mainpackage;
+
+public abstract class Users {
+	
+	private String username;
+	private String password;
+	private String name;
+	private String surname;
+	private int Users_Counter = 0 ;
+	
+	
+	//Users Constructor
+	public Users(String username, String password,String name,String surname) {
+		this.username = username;
+		this.password = password;
+		this.username = name;
+		this.username = surname;
+	}
+	
+	
+	
+	//login Method
+	public void login(String usernamename, String password) {
+		System.out.println("User " + name + " logged succesfully!" );
+	}
+	
+	//logout Method
+	public void logout(String usernamename, String password) {
+		System.out.println("User " + name + " logged out succesfully!" );
+	}
+	
+	//Users_Counter Constructor
+	public void Counter(int Users_counter) {
+		
+	}
+	
+	//Getters And Setters
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getSurname() {
+		return surname;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+	/*
+	public int getUsers_Counter() {
+		return Users_Counter;
+	}
+
+	public void setUsers_Counter(int users_Counter) {
+		Users_Counter = users_Counter;
+	}
+	*/
+	//Getters And setters
+	
+	public static void main(String[] args) { 
+		Patient a = new Patient("Chris", "Manouso", "Sales", "test",5); 
+		
+	     
+    }
+
+}
