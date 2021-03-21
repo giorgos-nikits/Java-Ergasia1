@@ -1,0 +1,22 @@
+package mainpackage;
+
+public class Doctor extends Users {
+	String spec;
+	//Doctor Constructor
+	public Doctor(String username, String password,String name,String surname,String spec) {
+		super(username,password,name,surname);
+		this.spec = spec; 
+	} 
+	
+	//Methods from Users
+		public void login() {
+	    	
+			}
+	    public void logout() {
+	    	
+	    }
+	    
+	    public void Availability() {
+	    	
+	    }
+}
